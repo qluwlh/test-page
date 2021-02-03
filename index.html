@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.8.2/skins/default/aliplayer-min.css" />
+    <script charset="utf-8" type="text/javascript" src="https://g.alicdn.com/de/prismplayer/2.8.2/aliplayer-min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div  class="prism-player" id="J_prismPlayer">www</div>
+    <script>
+         var player = new Aliplayer({
+            id: 'J_prismPlayer',
+            width: '100%',
+            autoplay: true,
+            vid : "6edeb167b74d4cfb8bf47380dc880a11",  
+            accId: "STS.NTCJH67UehUK7HMRBUMiKobfd",  
+            accSecret:"8Acz214yjnGv7LZYtvZuhpCsgeNzjkXknEp1JMEGSwXG",  
+            stsToken: "CAIS7wF1q6Ft5B2yfSjIr5f2AfKC2opE35egNW78tkIAQeZngKfNhjz2IHlFdHhgBuEXsP0wm2xX6vcTlqNvRoRZAFDDbsZ2tiK2CNw/Jdivgde8yJBZor/HcDHhJnyW9cvWZPqDP7G5U/yxalfCuzZuyL/hD1uLVECkNpv74vwOLK5gPG+CYCFBGc1dKyZ7tcYeLgGxD/u2NQPwiWeiZygB+CgE0DIhtPnnmpbMsUeH1gegmtV4/dqhfsKWCOB3J4p6XtuP2+h7S7HMyiY46WIRrfYm3fwbqGaZ547CXwYNskScXenE8dh3Nx+1g2mTuDWSxxqAAS/Dx4eKUxQ0URB+fHHSgkhFzc2tKaEqKGuggSVLYweUS2s0NkbnMjwQpTE1odmHzYA5Vmcf0zm+O0YepDRUgqX2f0/AT6nxVoMdDjGEeZyQkZmrDJb8Aq48tL3LQev2EQqLeKONg1juRL2luABFTZc33jjbkZurLQJLtUa41XGg",  
+            domainRegion: "cn-beijing",  
+            "authInfo": `{"ExpireTime": "2021-02-03T15:56:11Z","MediaId": "6edeb167b74d4cfb8bf47380dc880a11","Signature": "HpYvVjifmL2Kn4JKvWacj6Ey9D8="}`,  
+            format:"m3u8",
+            "mediaType": "video",
+            "encryptType": 1,
+            "width": "100%",
+            "height": "500px",
+            "autoplay": true,
+            "isLive": false,
+            "cover": "",
+            "rePlay": false,
+            "videoHeight": "",
+            "playsinline": true,
+            "preload": true,
+            "autoPlayDelay": "",
+            "autoPlayDelayDisplayText": "sdfsdfdf",
+            "loadDataTimeout": "",
+            "controlBarVisibility": "hover",
+            "videoWidth": "",
+            //"useFlashPrism": true
+            "useH5Prism": true,
+        },function(player){
+            console.log('播放器创建好了。')
+        });
+    </script>
+</body>
+</html>
